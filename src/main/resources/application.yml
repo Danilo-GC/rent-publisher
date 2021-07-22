@@ -1,0 +1,19 @@
+#Micronaut
+micronaut:
+  application:
+    name: rentPublisher
+  server:
+#Cors
+    cors:
+      enabled: true
+    port: 8086
+#Actuator
+  endpoints:
+    health:
+      enabled: true
+##Nats
+nats:
+    addresses:
+      - "nats://localhost:4222"
+    username: guest
+    password: guest
