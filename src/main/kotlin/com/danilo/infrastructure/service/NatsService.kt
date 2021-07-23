@@ -9,7 +9,6 @@ import com.danilo.infrastructure.model.EventsInformationDto
 import com.danilo.infrastructure.model.RentEvent
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import java.math.BigDecimal
 import java.util.UUID
 import javax.inject.Singleton
 

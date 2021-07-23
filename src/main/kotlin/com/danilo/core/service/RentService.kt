@@ -5,7 +5,7 @@ import com.danilo.core.model.Rent
 import com.danilo.core.ports.NatsServicePort
 import com.danilo.core.ports.RentServicePort
 import com.danilo.entrypoint.model.RentDto
-import java.util.*
+import java.util.UUID
 import javax.inject.Singleton
 
 @Singleton
